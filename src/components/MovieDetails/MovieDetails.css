@@ -1,0 +1,55 @@
+@import "../../common/colors.css";
+
+
+.movie-section{
+    /* display: flex; */
+    /* padding: 20px; */
+    justify-content: space-between;
+    font-weight: 400;
+    /* padding: 40px 0px; */
+    color: var(--font-primary);
+}
+
+.movie-title{
+    font-size: 40px;
+}
+
+.movie-left-section{
+    padding: 20px;
+}
+
+.movie-right-section img {
+    /* margin-left: 30px; */
+    /* object-fit: fill; */
+    flex: 1;
+    height: 300px;
+    width: 100%;
+    aspectRatio:1.2;
+}   
+
+.movie-rating{
+    display: flex;
+    color: var(--font-secondary);
+    padding-left: 3px;
+    margin-top: 20px;
+}
+.movie-rating span{
+    margin-right: 20px;
+}
+
+.movie-plot{
+    margin-top:20px;
+    line-height: 1.8rem;
+}
+
+.movie-info div span:first-child{
+    padding: 10px 0px;
+    color: var(--font-primary);
+    font-weight: 600;
+    width: 100px;
+    display: inline-block;
+}
+
+.movie-info div span{
+    color: var(--font-secondary);
+}
